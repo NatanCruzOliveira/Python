@@ -1,5 +1,5 @@
-n1 = int(input('Digite um número: '))
-n2 = int(input('Digite outro número: '))
+n1 = float(input('Digite a primeira nota: '))
+n2 = float(input('Digite a segunda nota: '))
 media = (n1 + n2) / 2
 
-print('Analisando o número digitado {} e {}, sua média é {}'.format(n1, n2, media))
+print('Analisando as notas digitadas {} e {}, sua média é {}'.format(n1, n2, media))
